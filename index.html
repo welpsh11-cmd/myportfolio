@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Januyan_Portfolio</title>
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h2 class="logo">💥John Mark</h2>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="themeBtn" class="theme-btn">🌙</button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>John Mark's Portfolio</h1>
+            <p>Student of Collage of Maasin</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">Projects</a>
+                <a href="#contact" class="btn secondary">Contact</a>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="social-links">
+                <a href="https://www.facebook.com/johnmark.laranjanuyan" class="social-icon facebook" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/nayunaj05/" class="social-icon instagram" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://discord.com/users/1083718989265502288" class="social-icon discord" target="_blank">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Hi I'm John Mark Januyan</h3>
+                    <p>A first-year IT student, I'm trying to get better at both technology and academics. I maintain my commitment to my education while simultaneously playing video games, juggling obligations and enthusiasm in the process.</p>
+                    <div class="skills">
+                        <span>Music</span>
+                        <span>Teamwork</span>
+                        <span>Artistic Skills</span>
+                        <span>Creativity</span>
+                    </div>
+                </div>
+                <img src="images/profile-pic.jpg" alt="John Mark" class="avatar">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Project</h2>
+            <div class="project-layout">
+
+                <!-- PROJECT -->
+                <div class="project-card main">
+                    <div class="project-img">
+                    <img src="images/project.png" alt="First Website"></div>
+                    <h3>First Website</h3>
+                    <p>Changes color everytime when clicking the "click me"button</p>
+                    <div class="project-links">
+                        <a href="https://januyan.collegeofmaasin.tech/jm.januyan_index.html" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Visit Website
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ACHIEVEMENTS -->
+                <div class="achievements-fill">
+                    <h4 class="ach-title">Achievements</h4>
+                    <div class="achievement-line">
+                        <img src="images/achievement1.jpg" alt="Trophy" class="ach-icon">
+                        <span>Successfully completed Senior High School education</span>
+                    </div>
+                    <div class="achievement-line">
+                        <img src="images/achievement2.jpg" alt="Star" class="ach-icon">
+                        <span>Received Academic Excellence Award</span>
+                    </div>
+                    <div class="achievement-line">
+                        <img src="images/achievement3.jpg" alt="Download" class="ach-icon">
+                        <span>Champion in School Intramural Sports Competition 10/27/23</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
